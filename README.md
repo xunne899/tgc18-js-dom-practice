@@ -6,7 +6,8 @@ You can use either repl.it, Gitpod or Visual Studio Code for this execrise. Fork
 this Github repo. Once done, at the terminal, type in:
 
 ```
-npm install
+yarn install
+yarn add jest
 ```
 
 ## 2. Doing the questions
