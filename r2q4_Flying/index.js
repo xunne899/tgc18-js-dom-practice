@@ -10,11 +10,24 @@ button.addEventListener('click',function extractFormInfo(){
   let ticketClass = null
   let radioButtons = document.querySelectorAll('.ct')
 
-  for (r of radioButtons){
-    if (r.checked = r.value){
-      ticketClass = 1200;
-      break;
 
+  for (r of radioButtons){
+
+
+    let firstclassprice = ticketClass.document.querySelector('#fc')
+    firstclassprice.innerHTML = 1200
+    
+  
+    let bizclassprice = ticketClass.document.querySelector('#bc')
+    bizclassprice.innerHTML = 750
+  
+    
+    let eclassprice = ticketClass.document.querySelector('#ec')
+    eclassprice.innerHTML = 250
+
+    if (r.checked){
+      ticketClass = r.value;
+      break;
     }
 
     // else if (r.checked= r[1].value){
